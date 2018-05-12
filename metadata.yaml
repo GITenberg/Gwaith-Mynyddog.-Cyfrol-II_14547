@@ -1,0 +1,35 @@
+_repo: Gwaith-Mynyddog.-Cyfrol-II_14547
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Mynyddog
+    alias: Davies, Richard
+    birthdate: 1833
+    deathdate: 1877
+    gutenberg_agent_id: '5571'
+    url: http://www.gutenberg.org/2009/agents/5571
+  editor:
+    agent_name: Edwards, Owen Morgan, Sir
+    alias: Edwards, O. M., Sir
+    birthdate: 1858
+    deathdate: 1920
+    gutenberg_agent_id: '1144'
+    url: http://www.gutenberg.org/2009/agents/1144
+    wikipedia: http://en.wikipedia.org/wiki/Owen_Morgan_Edwards
+description: ''
+gutenberg_issued: '2004-12-31'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '14547'
+language: cy
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'PB'
+- !lcsh 'Welsh poetry -- 19th century'
+title: Gwaith Mynyddog.  Cyfrol II
+url: http://www.gutenberg.org/ebooks/14547
