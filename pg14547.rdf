@@ -1,119 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
 >
   <pgterms:ebook rdf:about="ebooks/14547">
-    <marcrel:edt>
-      <pgterms:agent rdf:about="2009/agents/1144">
-        <pgterms:name>Edwards, Owen Morgan, Sir</pgterms:name>
-        <pgterms:alias>Edwards, O. M., Sir</pgterms:alias>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1858</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</pgterms:deathdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Owen_Morgan_Edwards"/>
-      </pgterms:agent>
-    </marcrel:edt>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</pgterms:downloads>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:title>Gwaith Mynyddog.  Cyfrol II</dcterms:title>
+    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/14547/14547.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/14547/14547-h.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-12-31T16:35:49</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49121</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3a4d7ad2613e4b87a7cba86d8b3f05d3">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5eb4b98ac8ad4acebc9df84303dbff16">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/14547.plucker">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N67a704927a59404684093d18328f8ea9">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76716</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T15:05:09.755668</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/14547.txt.utf-8">
-        <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N85a17b5305884a0586eaf7e4ff9adf09">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120311</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T19:43:51.764260</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N6c9fb00cef27414bb656c259973ed722">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/14547/14547-h/14547-h.htm">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-12-31T16:31:30</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164868</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N4b26cfed30f34501bd7d12d6d1f39081">
+          <rdf:Description rdf:nodeID="N6008e5116fd34b41a5477b78782f431e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N844d3ddf52ea43d5a40f41ee0d9d4f63">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">628851</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N2152b9ae5ac6455e830bbc08d766f8f1">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Welsh poetry -- 19th century</rdf:value>
+      <rdf:Description rdf:nodeID="Nede4e2b487264baeb3522543f5149cd1">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PB</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/14547.qioo">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111055</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/14547.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T15:05:07.622795</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T03:56:38.529514</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120312</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd7555d51165a42eeae22813a7ccd2d43">
+          <rdf:Description rdf:nodeID="N199b064edc1747469abfd50ce5e90457">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/14547.epub.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">235366</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T19:43:53.246771</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb87a3dc7acaa44f780c65985115286df">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
@@ -122,70 +52,156 @@
       <pgterms:file rdf:about="http://www.gutenberg.org/files/14547/14547.txt">
         <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120311</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N2567240641f24940b960d5bb0fc209a4">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-12-31T16:35:49</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/5571">
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1877</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1833</pgterms:birthdate>
-        <pgterms:alias>Davies, Richard</pgterms:alias>
-        <pgterms:name>Mynyddog</pgterms:name>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/14547.epub.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T19:43:52.721311</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd520510ae2eb4cb68f084a6ccd710d74">
+          <rdf:Description rdf:nodeID="Nb04c066574a748348c9032b88bf391aa">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73771</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/1144">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1920</pgterms:deathdate>
+        <pgterms:alias>Edwards, O. M., Sir</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1858</pgterms:birthdate>
+        <pgterms:name>Edwards, Owen Morgan, Sir</pgterms:name>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Owen_Morgan_Edwards"/>
+      </pgterms:agent>
+    </marcrel:edt>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="N99bf35e1814645efae9e64225d6aaeb7">
+      <rdf:Description rdf:nodeID="Na91947b7dc1e4d678f0a4f5d20108538">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">cy</rdf:value>
       </rdf:Description>
     </dcterms:language>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N0b0b41c7338542f29c05526a3a2bfd25">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Welsh poetry -- 19th century</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/14547/14547-h.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/14547/14547-h/14547-h.htm">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8ae3a4293c594adc80bdf0f480f26d33">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-12-31T16:31:30</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164868</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/14547/14547.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Naa8591146d3d4d08be02b7165f366276">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49121</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-12-31T16:35:49</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne9778d04b9004459989761d153da0a13">
+          <rdf:Description rdf:nodeID="N16b6b2a04d454bbe90d818865cb48e2d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">628851</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/14547.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T03:56:38.799518</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N91d29b1a548c495fbc73f35213ec33dc">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          <rdf:Description rdf:nodeID="N8ac9fc13f7c14fe4a1f556a9cbcd7f8c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">137304</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/14547.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11739</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N87061ca68bc6462aa1ed982de4f351f7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:11:01.073312</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/5571">
+        <pgterms:name>Mynyddog</pgterms:name>
+        <pgterms:alias>Davies, Richard</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1833</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1877</pgterms:deathdate>
+      </pgterms:agent>
+    </dcterms:creator>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</pgterms:downloads>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/14547.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T03:56:40.412481</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">262272</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1cbdc960d7e04e83a0fa5a9d07fd15d4">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N121643fae32b41878e23b0052695de3d">
-        <rdf:value>PB</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
+    <dcterms:title>Gwaith Mynyddog.  Cyfrol II</dcterms:title>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-12-31</dcterms:issued>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N0d8e04f0d0864c5e97fba4596c80adfb">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/14547.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60780</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6e62e4fe3f0c402b918cab780dc04479">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T03:56:38.918513</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/14547.kindle.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd0ae448ce1e34e6596ea8b23d33f87af">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T03:56:39.694500</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">412560</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/14547"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Owen_Morgan_Edwards">
     <dcterms:description>Wikipedia</dcterms:description>
